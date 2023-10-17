@@ -1,24 +1,19 @@
 variable "bucket_name" {
   type    = string
-  default = "plain-website-bucket-1998"
+  default = "plain-website-bucket"
 }
 
-variable "website_root_folder" {
-  type = string
+variable "website_folder" {
+  type    = string
   default = "website"
 }
 
-variable "index_file" {
+variable "index_file_sufix" {
   type    = string
   default = "index.html"
 }
 
 variable "error_file" {
   type    = string
-  default = "error.html"
-}
-
-variable "about_file" {
-  type    = string
-  default = "about/index.html"
+  default = "error/index.html"
 }
