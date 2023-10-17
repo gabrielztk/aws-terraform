@@ -5,7 +5,7 @@ variable "bucket_name" {
 
 variable "website_folder" {
   type    = string
-  default = "website"
+  default = "static-website-example"
 }
 
 variable "index_file_sufix" {
